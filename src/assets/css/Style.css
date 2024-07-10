@@ -1,0 +1,9 @@
+@page{
+    size: A4;
+    margin: 2mm;
+}
+
+body{
+    margin: 0;
+    padding: 1em 3em;
+}
