@@ -19,6 +19,24 @@ function App() {
       <Projects project={projects} />
       <Skills {...skills} />
       <SpokenandWritten />
+      <div className="flex">
+        <button
+          className="outline-none text-center px-10 py-1 text-white rounded bg-gray-700 hover:bg-gray-500 m-1"
+          onClick={() => {
+            window.close();
+          }}
+        >
+          Close
+        </button>
+        <button
+          className="outline-none textcenter px-10 py-1 text-white rounded bg-gray-700 hover:bg-gray-500 m-1"
+          onClick={() => {
+            window.print();
+          }}
+        >
+          Print this Resume
+        </button>
+      </div>
     </>
   );
 }
