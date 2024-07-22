@@ -1,19 +1,19 @@
-export default function SpokenandWritten() {
+/* eslint-disable react/prop-types */
+export default function SpokenandWritten({ details }) {
   return (
     <>
       <div className="py-1 max-w-2xl">
         <p className="text-2xl">Spoken and Written</p>
         <hr />
-        <div className="grid text-sm">
-          <li>
-            <span className="font-semibold">English:</span> Professional Working
-            Proficiency
-          </li>
-          <li>
-            <span className="font-semibold">Hindi:</span> Native or Bilingual
-            Proficiency
-          </li>
-        </div>
+        {details.languages.map((lang, index) => (
+          <div key={index} className="grid text-sm">
+            <li>
+              <span className="font-semibold">{lang.name}</span>
+              {": "}
+              {lang.convenience}
+            </li>
+          </div>
+        ))}
       </div>
     </>
   );
