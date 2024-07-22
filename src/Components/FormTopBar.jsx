@@ -67,10 +67,10 @@ export default function FormTopBar({
     <>
       <div className="container">
         <div className="p-2 grid">
-          <h1 className="px-1 pl-1 sm:pl-5 md:pl-10 text-2xl text-left text-gray-800">
+          <h1 className="px-1 pl-1 sm:pl-5 md:pl-10 text-xl text-left text-gray-800">
             {headings}
           </h1>
-          <p className="text-xs p-1 pl-1 italic sm:pl-5 md:pl-10 sm:text-sm md:text-md text-left text-gray-400">
+          <p className="text-xs p-1 pl-1 italic sm:pl-5 md:pl-10 sm:text-sm text-left text-gray-400">
             Get started with the basics: your name and contact information.
           </p>
         </div>

@@ -115,8 +115,9 @@ export default function Form({ details, setDetails }) {
     <>
       {page != 6 ? (
         <div className="text-center font-sans">
-          <div className="pt-2 sm:shadow-md sm:shadow-blue-200 sm:rounded-xl border-t-4 border-blue-500">
-            <div className="body">{pageDisplay(page)}</div>
+          <div className="text-left pt-4 sm:shadow-md sm:shadow-blue-200 sm:rounded-xl border-t-4 border-blue-500">
+            <span className="text-3xl p-2.5 sm:px-6 md:px-11">Resume Builder</span>
+            <div className="body pt-1">{pageDisplay(page)}</div>
           </div>
         </div>
       ) : (
