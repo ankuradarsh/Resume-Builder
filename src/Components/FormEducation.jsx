@@ -262,7 +262,7 @@ export default function FormEducation({
                       onChange={(e) => handleChange(index, e)}
                       className="p-1 bg-white  rounded-md border border-gray-300 outline-none focus:border-blue-500"
                     >
-                      <option value="" disabled>
+                      <option disabled>
                         -- Select your Grade --
                       </option>
                       <option value="E">E</option>

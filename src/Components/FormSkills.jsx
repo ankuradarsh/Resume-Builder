@@ -92,7 +92,7 @@ export default function FormSkills({
             {headings}
           </h1>
           <p className="text-xs p-1 pl-1 italic sm:pl-5 md:pl-10 sm:text-sm md:text-md text-left text-gray-400">
-            Get started with the basics: your college names and obtained marks.
+            Get started with the basics: your technical skills, soft skills and known edge cutting technologies.
           </p>
         </div>
         {/* {details.skills.map((lang, index) => ( */}

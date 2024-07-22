@@ -110,7 +110,7 @@ export default function FormProject({
             {headings}
           </h1>
           <p className="text-xs p-1 pl-1 italic sm:pl-5 md:pl-10 sm:text-sm md:text-md text-left text-gray-400">
-            Get started with the basics: your college names and obtained marks.
+            Get started with the basics: your project details and used tech. stacks.
           </p>
         </div>
         <div className="flex px-2 pb-3">
